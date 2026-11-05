@@ -1,0 +1,12 @@
+autoattack @ git+https://github.com/fra31/auto-attack@a39220048b3c9f2cca9a4d3a54604793c68eca7e
+matplotlib==3.10.8
+networkx==3.6.1
+numpy==2.4.2
+open_clip_torch==3.2.0
+pandas==3.0.2
+Pillow==12.0.0
+scikit-learn==1.8.0
+scipy==1.17.0
+torch==2.10.0
+torchvision==0.25.0
+tqdm==4.67.3

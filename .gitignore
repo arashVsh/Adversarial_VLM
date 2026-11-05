@@ -1,0 +1,53 @@
+# Local environments and Python caches
+.venv/
+venv/
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.mypy_cache/
+
+# Downloaded datasets and model caches
+data/
+cache/
+.cache/
+*.bin
+*.safetensors
+*.tar
+*.tar.gz
+
+# Generated experiment artifacts (the submission contains source only)
+outputs/
+output/
+adaptive_pgd_results/
+tmp/
+temp/
+*.pt
+*.pth
+*.pkl
+*.npz
+*.csv
+*.log
+results*.json
+results*.json.*
+*.zip
+
+# Manuscript and LaTeX material are not part of the runnable code release
+VLM___*/
+*.tex
+*.bib
+*.bbl
+*.pdf
+*.aux
+*.blg
+*.spl
+*.synctex.gz
+*.fdb_latexmk
+*.fls
+
+
+# Editors and operating systems
+.idea/
+.vscode/
+*.ipynb
+.DS_Store
+Thumbs.db
